@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title> JS - function </title>
+    <script type="text/javascript">
+
+        //function with 2 parameters
+        /*
+        function addNumber(num1, num2){
+            var answer=num1+num2;
+            document.write(answer);
+        }
+        addNumber(2,3)
+        */
+        //simple function
+        /*
+        function alertMessage(message) {
+            alert(message);
+
+        }
+        alertMessage("hello");
+        alertMessage("More Hello");
+    */
+
+        function factorial(n)
+        {
+            if (n==0 || n==1)
+                {
+                return 1;
+                }
+            return n * factorial(n-1);
+        }
+        document.write(factorial(10));
+
+    </script>
+    </head>
+    
+    <body></body>
+    ![](https://github.com/olafuring/jslearn)
